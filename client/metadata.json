@@ -1,0 +1,6 @@
+{
+  "name": "Speaker Abdul Jabbar Khan Memorial Public Library",
+  "description": "ডিজিটাল লাইব্রেরি ম্যানেজমেন্ট সিস্টেম — Speaker Abdul Jabbar Khan Memorial Public Library, ভূতেরদিয়া, বাবুগঞ্জ, বরিশাল।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

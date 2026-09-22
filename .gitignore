@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.env.local
+
+# Build output
+dist/
+build/
+client/dist/
+server/dist/
+
+# Databases & generated client
+*.db
+*.db-journal
+*.sqlite
+server/prisma/dev.db*
+server/prisma/migrations/*/migration_lock.toml
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Vite cache
+.vite/
+.cache/
+
+# Uploads
+server/uploads/
+
+# Test coverage
+coverage/
